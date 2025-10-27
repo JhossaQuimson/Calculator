@@ -5,11 +5,16 @@
 
 body {
     background-image: url("https://t3.ftcdn.net/jpg/01/36/25/58/360_F_136255856_XGPHT6zyNJay48Dprr0bTVYb4XlUuSaI.jpg");
-    height: 100vh;
+    background-size: cover;          /* makes image cover full screen */
+    background-repeat: no-repeat;    /* prevents repeating */
+    background-position: center;     /* centers image */
+    height: 100vh;                   /* full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;                       /* remove default spacing */
 }
+
 
 .calculator {
     background: #fff;
