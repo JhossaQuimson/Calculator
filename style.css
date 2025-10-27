@@ -58,7 +58,7 @@ body {
 }
 
 .operator {
-   background: linear-gradient(135deg, #000000, #ff0000);
+   background-color: #ff0000;
 }
 
 .operator:hover {
